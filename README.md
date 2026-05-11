@@ -27,6 +27,316 @@ This commands includes
 <BR>
 
 ## Output
+Microsoft Windows [Version 10.0.26200.8328]
+(c) Microsoft Corporation. All rights reserved.
+
+C:\Users\SUVETHA CSE>systeminfo
+
+Host Name:                     LAPTOP-KMHMOVOD
+OS Name:                       Microsoft Windows 11 Home Single Language
+OS Version:                    10.0.26200 N/A Build 26200
+OS Manufacturer:               Microsoft Corporation
+OS Configuration:              Standalone Workstation
+OS Build Type:                 Multiprocessor Free
+Registered Owner:              SUVETHA CSE
+Registered Organization:       HP
+Product ID:                    00342-42742-05030-AAOEM
+Original Install Date:         05-09-2025, 03:29:09
+System Boot Time:              09-05-2026, 10:46:33
+System Manufacturer:           HP
+System Model:                  HP Laptop 15-fd0xxx
+System Type:                   x64-based PC
+Processor(s):                  1 Processor(s) Installed.
+                               [01]: Intel64 Family 6 Model 186 Stepping 3 GenuineIntel ~1300 Mhz
+BIOS Version:                  AMI F.15, 08-01-2025
+Windows Directory:             C:\windows
+System Directory:              C:\windows\system32
+Boot Device:                   \Device\HarddiskVolume1
+System Locale:                 en-us;English (United States)
+Input Locale:                  00004009
+Time Zone:                     (UTC+05:30) Chennai, Kolkata, Mumbai, New Delhi
+Total Physical Memory:         16,028 MB
+Available Physical Memory:     5,984 MB
+Virtual Memory: Max Size:      21,404 MB
+Virtual Memory: Available:     9,310 MB
+Virtual Memory: In Use:        12,094 MB
+Page File Location(s):         C:\pagefile.sys
+Domain:                        WORKGROUP
+Logon Server:                  \\LAPTOP-KMHMOVOD
+Hotfix(s):                     5 Hotfix(s) Installed.
+                               [01]: KB5074828
+                               [02]: KB5082417
+                               [03]: KB5054156
+                               [04]: KB5083631
+                               [05]: KB5088467
+Network Card(s):               N/A
+Virtualization-based security: Status: Running
+                               Required Security Properties:
+                                     Base Virtualization Support
+                               Available Security Properties:
+                                     Base Virtualization Support
+                                     Secure Boot
+                                     DMA Protection
+                                     UEFI Code Readonly
+                                     SMM Security Mitigations 1.0
+                                     Mode Based Execution Control
+                                     APIC Virtualization
+                               Services Configured:
+                                     Hypervisor enforced Code Integrity
+                               Services Running:
+                                     Hypervisor enforced Code Integrity
+                               App Control for Business policy: Enforced
+                               App Control for Business user mode policy: Off
+                               Security Features Enabled:
+Hyper-V Requirements:          A hypervisor has been detected. Features required for Hyper-V will not be displayed.
+
+C:\Users\SUVETHA CSE>ipconfig
+
+Windows IP Configuration
+
+
+Wireless LAN adapter Wi-Fi 3:
+
+   Media State . . . . . . . . . . . : Media disconnected
+   Connection-specific DNS Suffix  . :
+
+Wireless LAN adapter Wi-Fi 4:
+
+   Media State . . . . . . . . . . . : Media disconnected
+   Connection-specific DNS Suffix  . :
+
+Wireless LAN adapter Wi-Fi:
+
+   Connection-specific DNS Suffix  . :
+   IPv6 Address. . . . . . . . . . . : 2401:4900:cae8:5514:bb39:406b:2986:3825
+   Temporary IPv6 Address. . . . . . : 2401:4900:cae8:5514:5d6f:aa28:3a58:b7ea
+   Link-local IPv6 Address . . . . . : fe80::5cf0:9d54:d273:9d54%19
+   IPv4 Address. . . . . . . . . . . : 10.191.182.153
+   Subnet Mask . . . . . . . . . . . : 255.255.255.0
+   Default Gateway . . . . . . . . . : fe80::e467:58ff:fe1c:43e6%19
+                                       10.191.182.84
+
+C:\Users\SUVETHA CSE>tracert google.com
+
+Tracing route to google.com [2404:6800:4007:83b::200e]
+over a maximum of 30 hops:
+
+  1     3 ms     1 ms     1 ms  2401:4900:cae8:5514::30
+  2    85 ms    99 ms   100 ms  2401:4900:1:a819::2
+  3   119 ms    96 ms    98 ms  2401:4900:1:a88b::4
+  4   107 ms    98 ms   100 ms  2401:4900:1:a88a::1
+  5     *        *        *     Request timed out.
+  6   169 ms   192 ms    97 ms  2404:a800:3a00:300::95
+  7   202 ms    99 ms   103 ms  2404:a800::92
+  8   111 ms   100 ms   100 ms  2404:6800:8201:40::1
+  9   113 ms    96 ms    56 ms  2404:6800:8201:40::1
+ 10   214 ms    96 ms   101 ms  2001:4860:0:1::55a8
+ 11   207 ms   101 ms    97 ms  2001:4860:0:1::5599
+ 12   149 ms    98 ms    99 ms  lcmaaa-an-in-x0e.1e100.net [2404:6800:4007:83b::200e]
+
+Trace complete.
+
+C:\Users\SUVETHA CSE>nslookup google.com
+Server:  UnKnown
+Address:  10.191.182.84
+
+Non-authoritative answer:
+Name:    google.com
+Addresses:  2404:6800:4007:83b::200e
+          172.217.24.14
+
+
+C:\Users\SUVETHA CSE>netstat -a
+
+Active Connections
+
+  Proto  Local Address          Foreign Address        State
+  TCP    0.0.0.0:135            LAPTOP-KMHMOVOD:0      LISTENING
+  TCP    0.0.0.0:445            LAPTOP-KMHMOVOD:0      LISTENING
+  TCP    0.0.0.0:5040           LAPTOP-KMHMOVOD:0      LISTENING
+  TCP    0.0.0.0:49664          LAPTOP-KMHMOVOD:0      LISTENING
+  TCP    0.0.0.0:49665          LAPTOP-KMHMOVOD:0      LISTENING
+  TCP    0.0.0.0:49668          LAPTOP-KMHMOVOD:0      LISTENING
+  TCP    0.0.0.0:49669          LAPTOP-KMHMOVOD:0      LISTENING
+  TCP    0.0.0.0:49670          LAPTOP-KMHMOVOD:0      LISTENING
+  TCP    0.0.0.0:49678          LAPTOP-KMHMOVOD:0      LISTENING
+  TCP    10.191.182.153:139     LAPTOP-KMHMOVOD:0      LISTENING
+  TCP    10.191.182.153:49220   151.101.157.55:https   ESTABLISHED
+  TCP    10.191.182.153:51742   172.188.155.25:https   ESTABLISHED
+  TCP    10.191.182.153:55791   52.168.112.67:https    TIME_WAIT
+  TCP    10.191.182.153:63637   lb-140-82-113-26-iad:https  ESTABLISHED
+  TCP    10.191.182.153:63698   20.189.173.9:https     TIME_WAIT
+  TCP    10.191.182.153:63699   20.189.173.12:https    TIME_WAIT
+  TCP    10.191.182.153:63700   20.189.173.12:https    TIME_WAIT
+  TCP    10.191.182.153:63703   20.190.145.160:https   TIME_WAIT
+  TCP    10.191.182.153:63704   20.190.145.160:https   TIME_WAIT
+  TCP    10.191.182.153:63705   20.190.145.160:https   TIME_WAIT
+  TCP    10.191.182.153:63707   20.190.145.160:https   TIME_WAIT
+  TCP    10.191.182.153:63708   20.196.241.127:https   TIME_WAIT
+  TCP    10.191.182.153:63719   20.42.65.90:https      TIME_WAIT
+  TCP    10.191.182.153:63736   20.42.65.94:https      ESTABLISHED
+  TCP    10.191.182.153:63737   20.42.65.90:https      ESTABLISHED
+  TCP    127.0.0.1:49699        LAPTOP-KMHMOVOD:49700  ESTABLISHED
+  TCP    127.0.0.1:49700        LAPTOP-KMHMOVOD:49699  ESTABLISHED
+  TCP    127.0.0.1:49701        LAPTOP-KMHMOVOD:49702  ESTABLISHED
+  TCP    127.0.0.1:49702        LAPTOP-KMHMOVOD:49701  ESTABLISHED
+  TCP    127.0.0.1:49704        LAPTOP-KMHMOVOD:49705  ESTABLISHED
+  TCP    127.0.0.1:49705        LAPTOP-KMHMOVOD:49704  ESTABLISHED
+  TCP    [::]:135               LAPTOP-KMHMOVOD:0      LISTENING
+  TCP    [::]:445               LAPTOP-KMHMOVOD:0      LISTENING
+  TCP    [::]:49664             LAPTOP-KMHMOVOD:0      LISTENING
+  TCP    [::]:49665             LAPTOP-KMHMOVOD:0      LISTENING
+  TCP    [::]:49668             LAPTOP-KMHMOVOD:0      LISTENING
+  TCP    [::]:49669             LAPTOP-KMHMOVOD:0      LISTENING
+  TCP    [::]:49670             LAPTOP-KMHMOVOD:0      LISTENING
+  TCP    [::]:49678             LAPTOP-KMHMOVOD:0      LISTENING
+  TCP    [::1]:42050            LAPTOP-KMHMOVOD:0      LISTENING
+  TCP    [::1]:42050            LAPTOP-KMHMOVOD:0      LISTENING
+  TCP    [::1]:49673            LAPTOP-KMHMOVOD:0      LISTENING
+  TCP    [2401:4900:cae8:5514:5d6f:aa28:3a58:b7ea]:50347  [2603:1063:2001:1943::365:ff1]:https  ESTABLISHED
+  TCP    [2401:4900:cae8:5514:5d6f:aa28:3a58:b7ea]:50348  [2603:1063:2001:1943::365:ff1]:https  ESTABLISHED
+  TCP    [2401:4900:cae8:5514:5d6f:aa28:3a58:b7ea]:50349  [2603:1063:2001:1943::365:ff1]:https  ESTABLISHED
+  TCP    [2401:4900:cae8:5514:5d6f:aa28:3a58:b7ea]:50350  [2603:1063:2001:1943::365:ff1]:https  ESTABLISHED
+  TCP    [2401:4900:cae8:5514:5d6f:aa28:3a58:b7ea]:50351  [2603:1063:2001:1943::365:ff1]:https  ESTABLISHED
+  TCP    [2401:4900:cae8:5514:5d6f:aa28:3a58:b7ea]:50352  [2603:1063:2001:1943::365:ff1]:https  ESTABLISHED
+  TCP    [2401:4900:cae8:5514:5d6f:aa28:3a58:b7ea]:50353  [2603:1063:2001:1943::365:ff1]:https  ESTABLISHED
+  TCP    [2401:4900:cae8:5514:5d6f:aa28:3a58:b7ea]:50354  [2603:1063:2001:1943::365:ff1]:https  ESTABLISHED
+  TCP    [2401:4900:cae8:5514:5d6f:aa28:3a58:b7ea]:50355  [2603:1063:2001:1943::365:ff1]:https  ESTABLISHED
+  TCP    [2401:4900:cae8:5514:5d6f:aa28:3a58:b7ea]:50688  [2603:1040:a06:6::]:https  ESTABLISHED
+  TCP    [2401:4900:cae8:5514:5d6f:aa28:3a58:b7ea]:50690  [2603:1040:a06:6::]:https  ESTABLISHED
+  TCP    [2401:4900:cae8:5514:5d6f:aa28:3a58:b7ea]:55618  [2606:4700:83b1:d8b7:9a3b:91c:ccf5:ac50]:https  ESTABLISHED
+  TCP    [2401:4900:cae8:5514:5d6f:aa28:3a58:b7ea]:57854  [2603:1040:a06:6::]:https  ESTABLISHED
+  TCP    [2401:4900:cae8:5514:5d6f:aa28:3a58:b7ea]:61432  [2403:8600:c090:42:f000::1122]:http  ESTABLISHED
+  TCP    [2401:4900:cae8:5514:5d6f:aa28:3a58:b7ea]:63701  [2603:1063:5:106::365:7ea3]:https  TIME_WAIT
+  TCP    [2401:4900:cae8:5514:5d6f:aa28:3a58:b7ea]:63711  [2603:1063:2001:1d16::365:ff1]:https  TIME_WAIT
+  TCP    [2401:4900:cae8:5514:5d6f:aa28:3a58:b7ea]:64102  [2606:50c0:8003::154]:https  ESTABLISHED
+  TCP    [2401:4900:cae8:5514:5d6f:aa28:3a58:b7ea]:65079  g2600-140f-f400-0000-0000-0000-1730-e20a:https  CLOSE_WAIT
+  TCP    [2401:4900:cae8:5514:5d6f:aa28:3a58:b7ea]:65080  g2600-140f-0006-0000-0000-0000-1729-babb:https  CLOSE_WAIT
+  TCP    [2401:4900:cae8:5514:5d6f:aa28:3a58:b7ea]:65081  g2600-140f-9800-0000-0000-0000-17c8-ee12:https  CLOSE_WAIT
+  TCP    [2401:4900:cae8:5514:5d6f:aa28:3a58:b7ea]:65082  g2600-140f-9800-0000-0000-0000-17c8-ee12:https  CLOSE_WAIT
+  TCP    [2401:4900:cae8:5514:5d6f:aa28:3a58:b7ea]:65083  g2600-140f-0006-0000-0000-0000-1729-babb:https  CLOSE_WAIT
+  TCP    [2401:4900:cae8:5514:5d6f:aa28:3a58:b7ea]:65084  g2600-140f-0006-0000-0000-0000-1729-babb:https  CLOSE_WAIT
+  TCP    [2401:4900:cae8:5514:5d6f:aa28:3a58:b7ea]:65085  g2600-140f-0006-0000-0000-0000-1729-babb:https  CLOSE_WAIT
+  TCP    [2401:4900:cae8:5514:5d6f:aa28:3a58:b7ea]:65086  g2600-140f-0006-0000-0000-0000-1729-babb:https  CLOSE_WAIT
+  UDP    0.0.0.0:5050           *:*
+  UDP    0.0.0.0:5353           *:*
+  UDP    0.0.0.0:5353           *:*
+  UDP    0.0.0.0:5353           *:*
+  UDP    0.0.0.0:5353           *:*
+  UDP    0.0.0.0:5353           *:*
+  UDP    0.0.0.0:5355           *:*
+  UDP    0.0.0.0:51752          *:*
+  UDP    0.0.0.0:53360          0.0.1.103:443
+  UDP    0.0.0.0:53651          *:*
+  UDP    0.0.0.0:53705          *:*
+  UDP    0.0.0.0:54869          *:*
+  UDP    0.0.0.0:58912          *:*
+  UDP    0.0.0.0:59939          *:*
+  UDP    0.0.0.0:64499          *:*
+  UDP    10.191.182.153:137     *:*
+  UDP    10.191.182.153:138     *:*
+  UDP    10.191.182.153:1900    *:*
+  UDP    10.191.182.153:51392   *:*
+  UDP    127.0.0.1:1900         *:*
+  UDP    127.0.0.1:49664        127.0.0.1:49664
+  UDP    127.0.0.1:51393        *:*
+  UDP    [::]:5353              *:*
+  UDP    [::]:5353              *:*
+  UDP    [::]:5353              *:*
+  UDP    [::]:5355              *:*
+  UDP    [::]:51752             *:*
+  UDP    [::]:53360             [2a03:2880:f369:120:face:b00c:0:167]:443
+  UDP    [::]:53651             *:*
+  UDP    [::]:53705             *:*
+  UDP    [::]:54869             *:*
+  UDP    [::]:58912             *:*
+  UDP    [::]:59939             *:*
+  UDP    [::]:64499             *:*
+  UDP    [::1]:1900             *:*
+  UDP    [::1]:51391            *:*
+  UDP    [fe80::5cf0:9d54:d273:9d54%19]:1900  *:*
+  UDP    [fe80::5cf0:9d54:d273:9d54%19]:51390  *:*
+
+C:\Users\SUVETHA CSE>hostname
+LAPTOP-KMHMOVOD
+
+C:\Users\SUVETHA CSE>getmac
+INFO: No network adapters found.
+
+C:\Users\SUVETHA CSE>arp -a
+
+Interface: 10.191.182.153 --- 0x13
+  Internet Address      Physical Address      Type
+  10.191.182.84         e6-67-58-1c-43-e6     dynamic
+  10.191.182.255        ff-ff-ff-ff-ff-ff     static
+  224.0.0.22            01-00-5e-00-00-16     static
+  224.0.0.251           01-00-5e-00-00-fb     static
+  224.0.0.252           01-00-5e-00-00-fc     static
+  239.255.255.250       01-00-5e-7f-ff-fa     static
+  255.255.255.255       ff-ff-ff-ff-ff-ff     static
+
+C:\Users\SUVETHA CSE>route print
+===========================================================================
+Interface List
+  8...3a 8d 3d 55 ea 58 ......Realtek RTL8851BE WiFi 6 802.11ax PCIe Adapter #3
+ 10...3e 8d 3d 55 ea 58 ......Realtek RTL8851BE WiFi 6 802.11ax PCIe Adapter #4
+ 19...38 8d 3d 55 ea 58 ......Realtek RTL8851BE WiFi 6 802.11ax PCIe Adapter
+  1...........................Software Loopback Interface 1
+===========================================================================
+
+IPv4 Route Table
+===========================================================================
+Active Routes:
+Network Destination        Netmask          Gateway       Interface  Metric
+          0.0.0.0          0.0.0.0    10.191.182.84   10.191.182.153     35
+     10.191.182.0    255.255.255.0         On-link    10.191.182.153    291
+   10.191.182.153  255.255.255.255         On-link    10.191.182.153    291
+   10.191.182.255  255.255.255.255         On-link    10.191.182.153    291
+        127.0.0.0        255.0.0.0         On-link         127.0.0.1    331
+        127.0.0.1  255.255.255.255         On-link         127.0.0.1    331
+  127.255.255.255  255.255.255.255         On-link         127.0.0.1    331
+        224.0.0.0        240.0.0.0         On-link         127.0.0.1    331
+        224.0.0.0        240.0.0.0         On-link    10.191.182.153    291
+  255.255.255.255  255.255.255.255         On-link         127.0.0.1    331
+  255.255.255.255  255.255.255.255         On-link    10.191.182.153    291
+===========================================================================
+Persistent Routes:
+  None
+
+IPv6 Route Table
+===========================================================================
+Active Routes:
+ If Metric Network Destination      Gateway
+ 19     51 ::/0                     fe80::e467:58ff:fe1c:43e6
+  1    331 ::1/128                  On-link
+ 19     51 2401:4900:cae8:5514::/64 On-link
+ 19    291 2401:4900:cae8:5514:5d6f:aa28:3a58:b7ea/128
+                                    On-link
+ 19    291 2401:4900:cae8:5514:bb39:406b:2986:3825/128
+                                    On-link
+ 19    291 fe80::/64                On-link
+ 19    291 fe80::5cf0:9d54:d273:9d54/128
+                                    On-link
+  1    331 ff00::/8                 On-link
+ 19    291 ff00::/8                 On-link
+===========================================================================
+Persistent Routes:
+  None
+
+C:\Users\SUVETHA CSE>ping google.com
+
+Pinging google.com [2404:6800:4007:83b::200e] with 32 bytes of data:
+Reply from 2404:6800:4007:83b::200e: time=165ms
+Reply from 2404:6800:4007:83b::200e: time=78ms
+Reply from 2404:6800:4007:83b::200e: time=89ms
+Reply from 2404:6800:4007:83b::200e: time=206ms
+
+Ping statistics for 2404:6800:4007:83b::200e:
+    Packets: Sent = 4, Received = 4, Lost = 0 (0% loss),
+Approximate round trip times in milli-seconds:
+    Minimum = 78ms, Maximum = 206ms, Average = 134ms
+
+
 
 ## Result
 Thus Execution of Network commands Performed 
